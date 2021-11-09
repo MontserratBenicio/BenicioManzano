@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Valentin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="libs/bignumber.min.js"></script>
+    <script src="libs/numeral.min.js"></script>
+</head>
+
+<body>
+    <form id="forma" action="javascript:procesa()">
+        <fieldset>
+            <legend>Menú de Tortas</legend>
+            <div>
+                <label>
+                    <input type="checkbox" accesskey="A" name="tortitas" value="Hawaiana">
+                    1. Hawaiana    .............................$45
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" accesskey="B" name="tortitas" value="Cubana">
+                    2. Cubana      ..............................$50
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" accesskey="C" name="tortitas" value="Mexicana">
+                    3. Mexicana    .............................$60
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" accesskey="D" name="tortitas" value="Española">
+                    4. Española ..........................$50
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" accesskey="E" name="tortitas" value="Suiza">
+                    5.Suiza ................................$90
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" accesskey="E" name="tortitas" value="Jamon">
+                    6.Jamon ................................$40
+                </label>
+            </div>
+        </fieldset> 
+    </form><br>
+    <table>
+        <thead>
+            <tr>
+                <td style="text-align:center">Ticket</td>
+            </tr>
+            <tr>
+                <td>Pedido: </td>
+            </tr>
+            <tr>
+                <td><output id="salidaTortitas"></output> <br><br></td>
+            </tr>
+            <tr>
+                <td>Total a Pagar</td>
+            </tr>
+            <tr>
+                <td><output id="salidaPrecio"></output></td>
+            </tr>
+        </thead>
+    </table>
+    <script src="js/script.js"></script>
+   <p>Copyright &copy; Montserrat Benicio Manzano 2021</p>
+</body>
+
+</html>
